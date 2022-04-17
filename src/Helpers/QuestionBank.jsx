@@ -1,0 +1,42 @@
+export const question = [
+  {
+    prompt: "What is the full form of HTML ?",
+    optionA: "HyperText Markup Language",
+    optionB: "Personal Home Page",
+    optionC: "Hypertext MarkUp Language",
+    optionD: "Highlevel Machine Language",
+    answer: "A",
+  },
+  {
+    prompt: "Who is the founder of React.js ?",
+    optionA: "Google",
+    optionB: "Facebook",
+    optionD: "Twitter",
+    optionC: "Instagram",
+    answer: "B",
+  },
+  {
+    prompt: "Who Developed JavaScript ?",
+    optionA: "James Goslin",
+    optionB: "Mark Zackerbarg",
+    optionD: "Guido Van Rossum",
+    optionC: "Brendain Eich",
+    answer: "C",
+  },
+  {
+    prompt: "What is React ?",
+    optionA: "A server side scriting language",
+    optionB: "A Programming Language",
+    optionD: "A JavaScript component based library",
+    optionC: "A framework",
+    answer: "D",
+  },
+  {
+    prompt: "Who is the developer of Python programming language ?",
+    optionA: "Guido Van Rossum",
+    optionB: "Elon Musk",
+    optionD: "Ryan Dal",
+    optionC: "Jordan Walke",
+    answer: "A",
+  },
+];

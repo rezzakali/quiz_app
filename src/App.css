@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+/* options style for button  */
+.options {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.options button {
+  padding: 10px;
+  margin-top: 10px;
+  width: 400px;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: none;
+  background-color: rgba(95, 86, 86, 0.212);
+  color: rgba(255, 255, 255, 0.932);
+  border: 1px solid white;
+}
+.options button:focus {
+  background-color: #1578d4de;
+}
+
+/* nextButton */
+#nextButton {
+  margin-top: 30px;
+  width: auto;
+}
+/* App */
+.App {
+  position: absolute;
+  top: 50%;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(9, 114, 79, 0.63);
+  border-radius: 5px;
+}
+/* startButton */
+#startButton {
+  margin: 30% auto;
+}
+/* email input*/
+#email:focus {
+  box-shadow: none;
+}
